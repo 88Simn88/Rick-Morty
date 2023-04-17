@@ -1,0 +1,45 @@
+
+.app {
+    background-color: #05292E;
+}
+
+.rectangle {
+    /* width: 1440px; */
+    height: 450px;
+    background: url(./headerrym.jpg);
+    background-position: center;
+}
+
+
+.app__title {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.app__form {
+    display: flex;
+    justify-content: center;
+}
+
+.app__input {
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.app__btn {
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0 1em;
+    background-color: rgb(125, 199, 14);
+    color: white;
+}
+
+.footer {
+    background-color:  #062226 ;
+    margin-top: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
